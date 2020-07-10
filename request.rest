@@ -1,0 +1,37 @@
+### Use 'Rest Client' VS Code Extension and the open this file
+### After that for example you can click send 'request' below the Add Demo Request to test the api
+### Method, Url, headers and Body format is given below for fetch or axios
+### dont forget to JSON.stringify(obj) before sending request from fetch or axios
+### Example fetch
+### fetch('https://lil-project-1.herokuapp.com/api/demorequests', {
+###     method: 'POST',
+###     headers: {
+###         'Content-Type':
+###             'application/json'
+###     },
+###     body: JOSN.stringify({ email: "test@test.com", message: "This is optional" })
+### })
+
+### Add Demo Request
+POST https://lil-project-1.herokuapp.com/api/demorequests
+Content-Type: application/json
+
+{
+    "email": "test@test.com",
+    "message": "This is optional"
+}
+
+
+### Add Contact Us
+POST https://lil-project-1.herokuapp.com/api/contactus
+Content-Type: application/json
+
+{
+    "name": "tester",
+    "email": "test@test.com",
+    "subject": "Testing...",
+    "message": "This is test message."
+}
+
+
+###
