@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo-opencourse.png';
 import '../App.css';
-import counter from './counter';
+// import { Link } from 'react-router-dom';
+import Counter from './counter';
+import Teacher from './teacher'
 
 import { Navbar, NavbarBrand, NavItem,Nav,NavbarToggler,Collapse } from 'reactstrap';
 
@@ -61,18 +63,29 @@ class HomePage extends Component{
                         {/* <NavbarBrand href="/">LIL</NavbarBrand> */}
                             {/* <NavbarToggler onClick={() => context.toggleNavbar()} />
                             <Collapse isOpen={context.navbarOpen} navbar> */}
-                            <Nav className="ml-auto" id="nav" navbar >
-                                <NavItem style={{margin:"15px"}} > Homepage </NavItem>
-                                <NavItem style={{margin:"15px"}}> Our Services </NavItem>
-                                <NavItem style={{margin:"15px"}}> Curators </NavItem>
-                                <NavItem style={{margin:"15px"}}> About Us </NavItem> 
-                                <NavItem style={{margin:"15px"}}> Contact Us </NavItem>
+                            <div className="d-flex justify-content-end ml-auto">
+                            <Nav className="ml-auto " className="topnav" id="nav" navbar >
+                                <NavItem style={{margin:"15px", textDecoration:"none"}} id="a"> Homepage </NavItem>
+                                <NavItem style={{margin:"15px"}} id="a">Our Services </NavItem>
+                                <NavItem style={{margin:"15px"}} id="a"> Curators </NavItem>
+                                <NavItem style={{margin:"15px"}} id="a"> About Us </NavItem> 
+                                <NavItem style={{margin:"15px"}} id="a"> Contact Us</NavItem>
                             </Nav>
+                            </div>
+                            
                             </Collapse>
                     
         </Navbar>
 
-                            <counter />
+                            {/* <Counter /> */}
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                           < Teacher /> 
+
+                            
            </div>
       );
     }
