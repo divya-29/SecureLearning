@@ -1,0 +1,26 @@
+video{
+	width: 100%;
+	height: auto;
+}
+.sizing{
+	margin-top: 5%;
+	
+}
+
+.eg{
+	margin-top: 5%;
+	height: 70px;
+	color: #8fcfd1;
+}
+#title{
+	font-size: 3em;
+	text-align: center;
+	color: black;
+}
+.textstyle{
+    color: #042d3b;
+    font-style: unset;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}

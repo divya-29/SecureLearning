@@ -1,0 +1,52 @@
+.card-wrapper {
+    background: white;   
+    max-height: 200px;
+    overflow: hidden;
+    transition: max-height 500ms ease-in-out;
+}  
+    .card-wrapper:hover {
+      box-shadow: 0 0 8px #d3d3d3;    
+      cursor: pointer;
+      max-height: 300px;
+    }
+  
+  .cardstyle{
+      height: 200px;
+      width: 200px;
+    
+      
+  }
+  .fit{
+    object-fit: cover;
+  }
+  .CardStyle{
+    background:#404040;
+    color: white;
+    font-style: inherit;
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+  }
+  /* .card-details,
+  .reveal-details {
+    font-weight: 300;
+  }
+   */
+  
+  /* .card-height-animate {
+    height: 300px; 
+  } */
+  /* .gif{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    max-width: 100vh;
+    max-height: 100%;
+    margin: auto;
+  } */
+  .responsive{
+    width: 100%;
+    height: auto;
+  }
