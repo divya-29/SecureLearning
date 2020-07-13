@@ -42,4 +42,12 @@ GET https://lil-project-1.herokuapp.com/api/testimonials
 GET https://lil-project-1.herokuapp.com/api/courses
 
 
+### Get About Us
+GET https://lil-project-1.herokuapp.com/api/about
+
+
+### Get Contact Details
+GET https://lil-project-1.herokuapp.com/api/contactdetails
+
+
 ###
