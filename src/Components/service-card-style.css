@@ -1,0 +1,37 @@
+body {
+	background-color: #D3D3D3;
+}
+
+.card-div {
+	width: 20rem;	
+}
+
+.card:hover {
+	box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253)!important;
+}
+
+.card-body-div {
+	padding: 3rem 0rem !important;
+}
+
+.card-text-p {
+	font-size: 0.9rem;
+	padding: 0.4rem 1.9rem;
+}
+
+.container-fluid-div {
+	padding: auto;
+}
+
+#root {
+	height: 100vh;
+}
+
+.row-div-1 .container-fluid-div{
+	height: 100vh;
+	margin: 0px;
+}
+
+.col-md-4 {
+	padding: 5rem 2rem 4rem;
+}
