@@ -38,8 +38,8 @@ Content-Type: application/json
 GET https://lil-project-1.herokuapp.com/api/testimonials
 
 
-### Get One Testimonial
-GET https://lil-project-1.herokuapp.com/api/testimonials/5f0aa2e2c9da121df8368fc2
+### Get All Courses
+GET https://lil-project-1.herokuapp.com/api/courses
 
 
 ###
