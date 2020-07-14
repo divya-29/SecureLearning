@@ -6,6 +6,8 @@ class Reviews extends Component{
         return(
 
 <div >
+    <br></br>
+    <br></br>
             <div className="container-fluid">
            <div className="row">
             
@@ -15,6 +17,7 @@ class Reviews extends Component{
               </div>      
         </div> 
            </div>
+           <br></br>
            <br></br>
            
         <div style={{backgroundColor:"#F4F3F3"}}>
@@ -114,6 +117,8 @@ class Reviews extends Component{
                      </div>
                 </div>
                </div>
+               <br></br>
+               <br></br>
            </div>
 
 

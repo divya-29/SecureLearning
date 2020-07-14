@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import cap from './Assets/Capture.JPG';
 import './teacher.css';
-import teach from './Assets/teacher.JPG';
+import teach from './Assets/teacher.png';
 import Mentors from './mentors';
 
 
@@ -18,6 +18,8 @@ class Teacher extends Component{
               </div>      
         </div> 
            </div>
+           <br></br>
+           <br></br>
 
          
 
@@ -25,11 +27,16 @@ class Teacher extends Component{
                 <div className="row">
                     <div className=" col-sm-12 col-lg-6 col-md-3">
                         <img
+                        id="cap"
                         src={cap}
                         alt="capture"
                         className="responsive">
                         </img>
                     </div>
+                    <br></br>
+                     <br></br>
+                     <br></br>
+                     <br></br>
                     <div className="col-sm-12 col-lg-6 col-md-3" style={{backgroundColor:"#F4F3F3"}}> 
                         <h2 id="teach">Role of Teacher in Digital Age</h2>
                         <p id="teacher"> 
@@ -39,7 +46,12 @@ class Teacher extends Component{
                         </p>
 
                      </div> 
+                     <br></br>
+                     <br></br>
+                     <br></br>
+                     <br></br>
                 </div>
+               
             
             <div className="row">
                     
@@ -58,7 +70,8 @@ class Teacher extends Component{
                      </div> 
 
                      <div className=" col-sm-12 col-lg-6 col-md-6">
-                        <img
+                        <img 
+                        id="teach"
                         src={teach}
                         alt="capture"
                         className="responsive">
@@ -66,6 +79,8 @@ class Teacher extends Component{
                     </div>
                 </div>
             </div>
+            <br></br>
+            <br></br>
             <Mentors/>
             </div>
                 
