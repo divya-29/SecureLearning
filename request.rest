@@ -54,4 +54,8 @@ GET https://lil-project-1.herokuapp.com/api/contactdetails
 GET https://lil-project-1.herokuapp.com/api/gallery
 
 
+### Get all Team Members
+GET https://lil-project-1.herokuapp.com/api/teammembers
+
+
 ###
