@@ -1,0 +1,30 @@
+.example {
+    height: 60px !important;
+    /* background-color:#8fcfd1; */
+}
+#head{
+    font-size: 3em !important;
+    text-align: center;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.responsive-class{
+    max-width: 100%;
+    height: auto;
+    background-color: #F4F3F3 !important;
+    margin: 1em;
+}
+
+.second{
+    float:right;
+}
+
+.mentor h2{
+    font-family: serif;
+    margin-top: 5px;
+}
+
+.mentor p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+}

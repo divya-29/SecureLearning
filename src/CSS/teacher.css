@@ -1,0 +1,35 @@
+.responsive{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* h1{
+    font-size: 8%;
+} */
+.example {
+    height: 60px !important;
+    /* background-color:#8fcfd1; */
+}
+
+#head{
+    font-size: 3em !important;
+    text-align: center;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#teach{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3b6978;
+    font-size:2em ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#teacher{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+}
