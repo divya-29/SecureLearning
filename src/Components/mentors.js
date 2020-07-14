@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import ment from './Assets/mentors.gif';
-import './mentors.css';
+import ment from '../Assets/mentors.gif';
+import '../CSS/mentors.css';
 import Reviews from './reviews';
 
 class Mentors extends Component{
@@ -8,6 +8,7 @@ class Mentors extends Component{
     {
         return(
             <div>
+                <br></br>
             <div className="container-fluid">
            <div className="row">
             

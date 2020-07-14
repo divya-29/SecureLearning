@@ -1,5 +1,5 @@
 import React from 'react';
-import './assets/css/service-card-style.css';
+import '../CSS/service-card-style.css';
 
 const ServiceCardUI = props =>{
 	return(

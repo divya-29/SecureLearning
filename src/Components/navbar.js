@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import logo from './logo-opencourse.png';
-import '../App.css';
-// import { Link } from 'react-router-dom';
-import Counter from './counter';
-import Teacher from './teacher';
-import Gallery from './gallery';
-import About from './About';
+import { Navbar, NavbarBrand, NavItem,Nav,NavbarToggler,Collapse} from 'reactstrap';
+import Carousel from './Carousel';
+import logo from '../Assets/logo-opencourse.png';
+import '../CSS/App.css';
+import Study from './Videos';
+import { Router, NavLink } from 'react-router-dom';
 
-import { Navbar, NavbarBrand, NavItem,Nav,NavbarToggler,Collapse } from 'reactstrap';
 
-class HomePage extends Component{
+class Navb extends Component{
 
     constructor(props) {
         super(props);
@@ -30,23 +28,10 @@ class HomePage extends Component{
 
         
         return(
-            
-            // <Navbar dark color="secondary">
-            // <div className="container">
-            //     <img
-            //         alt="LIL"
-            //         src={logo}
-            //         width="150"
-            //         height="30"
-                    
-            //     ></img>
-            //     <NavbarBrand href="/">LIL</NavbarBrand>
-                
-            // </div>
-            // </Navbar>
-
+          
         <div>
-            <Navbar color="dark" light expand="md" fixed="top">
+            
+        <Navbar color="dark" light expand="md" fixed="top">
                 {/* < div className="container" > */}
                 
                 
@@ -67,35 +52,26 @@ class HomePage extends Component{
                             <Collapse isOpen={context.navbarOpen} navbar> */}
                             <div className="d-flex justify-content-end ml-auto">
                             <Nav className="ml-auto " className="topnav" id="nav" navbar >
-                                <NavItem style={{margin:"15px", textDecoration:"none"}} id="a"> Homepage </NavItem>
-                                <NavItem style={{margin:"15px"}} id="a">Our Services </NavItem>
-                                <NavItem style={{margin:"15px"}} id="a"> Curators </NavItem>
-                                <NavItem style={{margin:"15px"}} id="a"> About Us </NavItem> 
-                                <NavItem style={{margin:"15px"}} id="a"> Contact Us</NavItem>
+                                <NavItem style={{margin:"15px", textDecoration:"none"}} id="a"><NavLink to='/HomePage'> Homepage</NavLink> </NavItem>
+                                <NavItem style={{margin:"15px"}} id="a"><NavLink to='/Study'> Our Services</NavLink> </NavItem>
+                                <NavItem style={{margin:"15px"}} id="a"> <NavLink to='/Bel'> Our Beliefs and Reviews</NavLink> </NavItem>
+                                <NavItem style={{margin:"15px"}} id="a"> <a href='#aboutdemo'> About Us</a> </NavItem> 
+                                <NavItem style={{margin:"15px"}} id="a"> <a href='#contact'> Contact Us</a></NavItem>
                             </Nav>
                             </div>
                             
                             </Collapse>
                     
         </Navbar>
+        
+        <br></br>
+        <br></br>
+        <div>
 
-                            {/* <Counter /> */}
-                            <br></br>
-                            <br></br>
-                            <br></br>
-                            <br></br>
-                            <br></br>
-                           < Teacher /> 
-                           {/* < Gallery /> */}
-                            {/* < About /> */}
                             
+                            </div>
            </div>
       );
     }
   }
-  
-  
-export default HomePage;
-
-
-// style={{margin:"15px", color:"white"}}
+export default Navb;

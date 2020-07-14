@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactCardFlip from 'react-card-flip';
-import img2 from './assets/images/curator.jpg';
+import img2 from '../Assets/curator.jpg';
 import {FaGithub, FaFacebook, FaInstagram, FaGoogle, FaLinkedinIn, FaTwitter} from 'react-icons/fa';
-import './assets/css/curatorUI-style.css';
+import '../CSS/curatorUI-style.css';
 
 class CardFront extends React.Component {
   render() {
@@ -36,7 +36,7 @@ class CardFront extends React.Component {
 
 class CardBack extends React.Component {
   render() {
-    return (<
+    return (
       <div class="container back-card-body">
 	<h2>Secure Learning</h2>
 	<p class="p-content">Learn India Learn (LIL) is an initiative of Secure Learning. LIL Learning platform will simplify creation, aggregation and dissemination / delivery of high quality, curated digital content in English, Hindi and other Vernacular Indian languages across multiple channels and devices.</p>

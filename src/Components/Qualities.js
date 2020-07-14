@@ -8,6 +8,8 @@ import easy from '../Assets/teach.jpg';
 import Contact from './Contact';
 import gif from '../Assets/gif.gif';
 import About from './About';
+import Aboutdemo from './demo';
+import MyComponent from './aboutdemo';
 
 class Qualities extends Component{
     render(){
@@ -58,7 +60,7 @@ class Qualities extends Component{
         <img src={gif} alt="gif" className="responsive" />
             </div>
             </div>
-            <About />
+            <About/>
         
            
             </div>

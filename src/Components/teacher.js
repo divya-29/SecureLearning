@@ -1,23 +1,33 @@
 import React, { Component } from 'react';
-import cap from './Assets/Capture.JPG';
-import './teacher.css';
-import teach from './Assets/teacher.JPG';
+import cap from '../Assets/Capture.JPG';
+import '../CSS/teacher.css';
+import teach from '../Assets/teacher.JPG';
 import Mentors from './mentors';
+import Navbar2 from './Navbar2';
 
 
 class Teacher extends Component{
     render(){
         return(
             <div>
+                <Navbar2/>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
                <div className="container-fluid">
            <div className="row">
             
             <div className=" example col-md-12 col-12">
             <h1 id="head" >Our Belief
             </h1>  
-              </div>      
+        
+              </div> 
+                
         </div> 
            </div>
+           <br></br> 
 
          
 

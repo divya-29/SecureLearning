@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import parents from './Assets/kid-1.jpg';
-import './reviews.css';
+import parents from '../Assets/kid-1.jpg';
+import '../CSS/reviews.css';
+import Webfooter from './footer';
 class Reviews extends Component{
     render(){
         return(
@@ -115,7 +116,7 @@ class Reviews extends Component{
                 </div>
                </div>
            </div>
-
+                <Webfooter/>
 
            </div>
         );
