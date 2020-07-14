@@ -50,4 +50,8 @@ GET https://lil-project-1.herokuapp.com/api/about
 GET https://lil-project-1.herokuapp.com/api/contactdetails
 
 
+### Get All Gallery Images
+GET https://lil-project-1.herokuapp.com/api/gallery
+
+
 ###
