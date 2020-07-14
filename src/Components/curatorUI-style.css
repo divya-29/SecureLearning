@@ -1,8 +1,11 @@
+#root {
+	width: 100%;
+}
+
 body {
   font-family: tahoma;
   height: 100vh;
   background-color: #D3D3D3;
-  /* background-image: url(https://picsum.photos/g/3000/2000); */
   background-size: cover;
   background-position: center;
   display: flex;
@@ -11,7 +14,6 @@ body {
 
 .my-team {
   padding: 2rem 0rem 3rem;
-  margin: auto;
   height: 100%;
   background-color: #f7f5ec;
   text-align: center;
@@ -114,17 +116,18 @@ body {
   background-color: #f7f5ec;
 }
 
-.flippy-front {
-	padding: 0px;
-	box-shadow: 0px 0px 0px;
+.back-card {
+  height: 18rem;
+  background-color: #f7f5ec;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  width: 18rem;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
-.flippy-back {
-	background-color: white;
-	border-radius: 0.5rem;
-	padding: 0px;
-}
-
-.card-body {
-	padding: 0.2rem 1rem 0rem;
+.p-content {
+	text-align: left;
 }
