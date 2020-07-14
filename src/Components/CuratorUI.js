@@ -15,12 +15,12 @@ class CardFront extends React.Component {
 	    	<img class="img-fluid" src={img2} width="500px" height="500px"/>
 	      </div>
 	      <div class="team-content">
-		<h3 class="name">VIRENDRA SINGH</h3>
+		<h3 class="name">Clay Jensen</h3>
 		<h4 class="title">Web Developer</h4>
 	      </div>
 	      <ul class="social">
 		<li><a href="#" aria-hidden="true"> <FaGithub/> </a></li>
-		<li><a href="mailto:virendrasayla@gmail.com?Subject=About%20Github%20Profile" target="_top" aria-hidden="true"> <FaGoogle/> </a></li>
+		<li><a href="mailto:example@gmail.com?Subject=About%20Github%20Profile" target="_top" aria-hidden="true"> <FaGoogle/> </a></li>
 		<li><a href="#" aria-hidden="true"> <FaLinkedinIn/> </a></li>
 		<li><a href="#" aria-hidden="true"> <FaFacebook/> </a></li>
 		<li><a href="#" aria-hidden="true"> <FaInstagram/> </a></li>
