@@ -1,6 +1,12 @@
 .responsive{
     max-width: 100%;
     height: auto;
+    /* margin: 10px; */
+    /* margin-left: 10px; */
+
+}
+#cap{
+    margin-bottom: 20px;
 }
 
 
@@ -27,9 +33,10 @@
     font-size:2em ;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 #teacher{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
