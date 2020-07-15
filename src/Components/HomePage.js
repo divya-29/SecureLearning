@@ -7,6 +7,7 @@ import Contact from './Contact';
 import { Router } from 'react-router';
 import Navb from './Navbar';
 import Navbar2 from './Navbar2';
+import Webfooter from './footer';
 
 class HomePage extends Component{
     render(){
@@ -15,6 +16,7 @@ class HomePage extends Component{
                 <div>
                 <Navb />
                 <Carousel/>
+				<Webfooter/>
                 </div>
            
       );

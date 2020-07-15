@@ -10,8 +10,7 @@ let Aboutstyles = {
     marginTop:'5%',
     marginRight:'15%',
     marginLeft:'15%',
-    textAlign:'center',
-    marginBottom:'5%'
+    textAlign:'center'
   };
   
   
