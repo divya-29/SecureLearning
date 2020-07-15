@@ -1,0 +1,13 @@
+.company-box{
+    text-align:center;
+    padding-left:0;
+    padding-right:0;
+    margin-bottom: 5px;
+}
+.company-box :hover {
+    border-bottom :3px solid saddlebrown;
+}
+.box-img{
+    width:200px;
+    height:200px;
+}
