@@ -97,6 +97,7 @@ class Reviews extends Component{
             </div>
             </div>
         </div>
+        <Webfooter/>
         </div>
     )
     }

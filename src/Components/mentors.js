@@ -73,7 +73,7 @@ class Mentors extends Component{
     })
 
     return(
-        <div>
+        <div> 
         <div className="container-fluid">
            <div className="row">
             
