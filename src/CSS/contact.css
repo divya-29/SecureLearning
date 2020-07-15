@@ -1,0 +1,32 @@
+#root {
+	width: 100%;
+}
+
+body {
+	width: 100%;
+	background-image: url('../images/bg-01.jpg');
+	background-size: cover;
+}
+
+.address {
+	width: 100%;
+	padding: 2rem 0rem;
+}
+.address-text {
+	margin: auto;
+	float:left;
+	display: inline-block;
+	width: 22rem;
+}
+
+.map {
+	display: inline-block;
+	float:right;
+	border: 2px solid black;
+	width: 30rem;
+}
+
+.wrap-contact100 {
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+}
