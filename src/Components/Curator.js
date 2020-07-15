@@ -2,6 +2,7 @@ import React from 'react';
 import CuratorUI from './CuratorUI';
 import img2 from '../Assets/curator.jpg';
 import Contact from './Contact';
+import Sponsers from './Sponsers';
 
 const Curator = props =>{
 	return(
@@ -19,7 +20,7 @@ const Curator = props =>{
 				</div>
 			</div>
 		</div>
-		<Contact/>
+		<Sponsers/>
 		</div>
 	)
 }

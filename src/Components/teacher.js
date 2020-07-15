@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
-<<<<<<< HEAD
 import cap from '../Assets/Capture.JPG';
 import '../CSS/teacher.css';
+import '../CSS/teacher.css';
 import teach from '../Assets/teacher.JPG';
-=======
-import cap from './Assets/Capture.JPG';
-import './teacher.css';
-import teach from './Assets/teacher.png';
->>>>>>> 1cef8bed6f82f83b31d49c2f7463cc608e4d0d65
 import Mentors from './mentors';
 import Navbar2 from './Navbar2';
 
@@ -33,12 +28,8 @@ class Teacher extends Component{
                 
         </div> 
            </div>
-<<<<<<< HEAD
-           <br></br> 
-=======
            <br></br>
            <br></br>
->>>>>>> 1cef8bed6f82f83b31d49c2f7463cc608e4d0d65
 
          
 

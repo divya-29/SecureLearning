@@ -1,14 +1,22 @@
 import React from 'react';
 import { FaUser, FaEnvelope } from 'react-icons/fa';
-import img01 from './assets/images/img-01.png';
-import './assets/css/contact.css';
-import './assets/css/main.css';
-import './assets/css/util.css';
-import "./assets/fonts/font-awesome-4.7.0/css/font-awesome.css";
+import img01 from '../Assets/img-01.png';
+import '../CSS/contact.css';
+import '../CSS/main.css';
+import '../CSS/util.css';
+import "../CSS/fonts/font-awesome-4.7.0/css/font-awesome.css";
+import Navbar2 from './Navbar2';
+import Webfooter from './footer';
 
 class Contact extends React.Component {
   render() {
 	return(
+		<div>
+			<Navbar2/>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
 		<div class="bg-contact100">
 			<div class="container-contact100">
 				<div class="wrap-contact100">
@@ -56,6 +64,8 @@ class Contact extends React.Component {
 					</div>
 				</div>
 			</div>
+		</div>
+		<Webfooter/>
 		</div>
     );
   }

@@ -4,11 +4,12 @@ import img1 from '../Assets/img1.jpeg';
 import img2 from '../Assets/img2.jpg';
 import img3 from '../Assets/img3.jpg';
 import Counter from './counter';
+import Contact from './Contact';
 
 const ServiceCard = props =>{
 	return(
 		<div>
-		<div className="container-fluid d-flex justify-content-center container-fluid-div">
+		<div className="container-fluid d-flex justify-content-center container-fluid-div" style={{backgroundColor:'#eaecf0'}}>
 			<div className="row row-div-1">
 				<div className="col-md-4 col-md-4-c">
 					<ServiceCardUI imgsrc={img1} title='Learn'/>

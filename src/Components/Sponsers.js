@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
-import './Sponsers.css';
+import '../CSS/Sponsers.css';
 //import $ from "jquery";
-import cnbc from "./Assets/cnbc.svg";
-import colgate from "./Assets/colgate.svg";
-import joint from "./Assets/joint.svg";
-import twitter from "./Assets/twitter.svg";
+import cnbc from "../Assets/cnbc.svg";
+import colgate from "../Assets/colgate.svg";
+import joint from "../Assets/joint.svg";
+import twitter from "../Assets/twitter.svg";
+import Contact from './Contact';
+import ServiceCard from './ServiceCard';
 
 
 class Sponsers extends Component{
@@ -68,6 +70,7 @@ class Sponsers extends Component{
                     <img alt="cnbc" className="box-img" src={twitter}/>
                 </div>
               </div>
+              <ServiceCard/>
           </div>
             
       )

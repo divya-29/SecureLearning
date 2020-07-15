@@ -19,36 +19,48 @@ let Aboutstyles = {
 
     constructor(props){
         super(props);
+        this.state ={
+            items: {}
+        }
+        this.load.bind(this)
 
-        this.state = {
-            datas: DATA   
-        };
     }
+    load(e) {
+        console.log("Hey! i am working");
+    }
+    componentDidMount() {
+        const apiUrl = 'https://lil-project-1.herokuapp.com/api/about';
+     fetch(apiUrl)
+       .then((response) => response.json())
+       .then((data) => {this.setState({
+        items: data.data.about
+    });
+} 
+       )
+     }
 
     render() {
 
-        const datas = this.state.datas;
-        
-            const dataselect = datas.map((i)=>{
+        const datas = this.state.items;
                 return( 
 
                     <div >
-                    <div id='about' style={{background:'#D3D3D3'}}>
+                    <div id='about' style={{background:'#eaecf0'}}>
                       <br></br>
                     <div style={Aboutstyles}><div style={{marginBottom:'2%',fontSize:'30px'}}> -- About Us --</div>
                     <div className="container">
                         <div className="row">
                             <div className="col-sm-12 col-md-4">
                             <h2>What we are?</h2>
-                            <p className="text-justify"> { i.block1 }</p>
+                            <p className="text-justify"> { datas.whatWereWe }</p>
                             </div>
                             <div className="col-sm-12 col-md-4">
                                 <h2>What we were?</h2>
-                                <p className="text-justify">{i.block2}</p>
+                                <p className="text-justify">{datas.whatAreWe}</p>
                             </div>
                             <div className="col-sm-12 col-md-4">
                                 <h2>What we do?</h2>
-                                <p className="text-justify">{i.block3}</p>
+                                <p className="text-justify">{datas.whatWeDo}</p>
                             <br></br>
                             </div>
                         </div>
@@ -59,14 +71,6 @@ let Aboutstyles = {
                     <Curator />
                     </div>
                   );
-            });
-        
-            return(
-                <div>
-                {dataselect}
-                </div>
-                    
-            );
            
             
         }

@@ -6,8 +6,8 @@ import '../CSS/video.css';
 import ResponsivePlayer from './Player';
 import vid from '../Assets/video.mp4';
 import Navbar2 from './Navbar2';
-import {videodata} from './videodata';
 import Webfooter from './footer';
+import { videodata } from './videodata';
 
 
 class Videos extends Component{
@@ -15,18 +15,28 @@ class Videos extends Component{
         super(props);
 
         this.state = {
-            videodata: videodata   
-        };
-    }
+            videodata: []
+		}; 
+	}
+    componentDidMount() {
+        const apiUrl = 'https://lil-project-1.herokuapp.com/api/courses';
+     fetch(apiUrl)
+       .then((response) => response.json())
+       .then((data) => {this.setState({
+        videodata: data.data.courses
+    });
+} 
+       )
+     }
 	
     render(){
-			const videod = videodata.map((i)=>{
+			const videod = this.state.videodata.map((i)=>{
 				return(
 					<div>
 					<div className="col-md-12 col-sm-12 m-0">
 						<video controls>
-						<source src={i.study} type="video/mp4"></source>
-						<source src={i.study} type="video/webm"></source>
+						<source url={i.videoUrl} type="video/mp4"></source>
+						<source src={i.videoUrl} type="video/webm"></source>
 						<p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
 						</video>
 						<div>
@@ -35,8 +45,11 @@ class Videos extends Component{
 					<br></br>
 					</div>
 					</div>
-				);
-			})
+                    
+                );
+               
+            })
+            
 		
 		return(
 			
@@ -58,6 +71,7 @@ class Videos extends Component{
 						<div class="container-fluid">
 							<div className="row sizing justify-content-center">
 								{videod}
+                                
 						</div>
 						</div>
 						<Webfooter/>
