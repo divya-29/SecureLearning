@@ -22,8 +22,8 @@ class Mentors extends Component{
            <br></br>
 
            <div className="container-fluid">
-               <div className="row" style={{backgroundColor:"#F4F3F3"}}>
-                   <div className="col-sm-3 col-lg-3 col-md-3">
+               <div className="row " style={{backgroundColor:"#F4F3F3"}}>
+                   <div className="col-sm-3 col-lg-3 col-md-3 margins">
                        <img
                        src={ment}
                        className="responsive-class rounded">
@@ -32,7 +32,7 @@ class Mentors extends Component{
                    </div>
 
                
-               <div className="col-sm-9 col-lg-9 col-md-9 mentor" style={{backgroundColor:"#F4F3F3"}}> 
+               <div className="col-sm-9 col-lg-9 col-md-9 mentor margins" style={{backgroundColor:"#F4F3F3"}}> 
                         <h2>
                             Mentor 1
                         </h2>
@@ -45,14 +45,16 @@ class Mentors extends Component{
                      </div> 
                      <br></br>
                      <br></br>
+                     <br></br>
+                     <br></br>
                      </div>
                      
                     
 
-                     <div className="row" style={{backgroundColor:"#F0F8FF"}}>
+                     <div className="row " style={{backgroundColor:"#F0F8FF"}}>
                    
                
-               <div className="col-sm-9 col-lg-9 col-md-9 mentor" style={{backgroundColor:"#F0F8FF"}}> 
+               <div className="col-sm-9 col-lg-9 col-md-9 mentor margins" style={{backgroundColor:"#F0F8FF"}}> 
                        <h2>
                            Mentor 2
                        </h2>
@@ -63,7 +65,7 @@ class Mentors extends Component{
                         </p>
 
                      </div> 
-                     <div className="col-sm-3 col-lg-3 col-md-3">
+                     <div className="col-sm-3 col-lg-3 col-md-3 margins">
                        <img
                        src={ment}
                        className="responsive-class rounded second">
@@ -72,12 +74,14 @@ class Mentors extends Component{
                    </div>
                    <br></br>
                    <br></br>
+                   <br></br>
+                     <br></br>
                      </div>
                     
                    
 
-                     <div className="row" style={{backgroundColor:"#F4F3F3"}}>
-                   <div className="col-sm-3 col-lg-3 col-md-3">
+                     <div className="row " style={{backgroundColor:"#F4F3F3"}}>
+                   <div className="col-sm-3 col-lg-3 col-md-3 margins">
                        <img
                        src={ment}
                        className="responsive-class rounded">
@@ -86,7 +90,7 @@ class Mentors extends Component{
                    </div>
 
                
-               <div className="col-sm-9 col-lg-9 col-md-9 mentor" style={{backgroundColor:"#F4F3F3"}}> 
+               <div className="col-sm-9 col-lg-9 col-md-9 mentor margins" style={{backgroundColor:"#F4F3F3"}}> 
                        <h2>
                            Mentor 3
                            </h2> 
@@ -99,14 +103,16 @@ class Mentors extends Component{
                      </div> 
                      <br></br>
                      <br></br>
+                     <br></br>
+                     <br></br>
                      </div>
              
               
 
-              <div className="row" style={{backgroundColor:"#F0F8FF"}}>
+              <div className="row " style={{backgroundColor:"#F0F8FF"}}>
                    
                
-                   <div className="col-sm-9 col-lg-9 col-md-9 mentor" style={{backgroundColor:"#F0F8FF"}}>
+                   <div className="col-sm-9 col-lg-9 col-md-9 mentor margins" style={{backgroundColor:"#F0F8FF"}}>
                            <h2>
                                Mentor 4
                                </h2>  
@@ -117,7 +123,7 @@ class Mentors extends Component{
                             </p>
     
                          </div> 
-                         <div className="col-sm-3 col-lg-3 col-md-3">
+                         <div className="col-sm-3 col-lg-3 col-md-3 margins">
                            <img
                            src={ment}
                            className="responsive-class rounded second">
@@ -126,6 +132,8 @@ class Mentors extends Component{
                        </div>
                        <br></br>
                        <br></br>
+                       <br></br>
+                     <br></br>
                        </div>
            </div>
            <Reviews />

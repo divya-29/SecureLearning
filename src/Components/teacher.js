@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
+<<<<<<< HEAD
 import cap from '../Assets/Capture.JPG';
 import '../CSS/teacher.css';
 import teach from '../Assets/teacher.JPG';
+=======
+import cap from './Assets/Capture.JPG';
+import './teacher.css';
+import teach from './Assets/teacher.png';
+>>>>>>> 1cef8bed6f82f83b31d49c2f7463cc608e4d0d65
 import Mentors from './mentors';
 import Navbar2 from './Navbar2';
 
@@ -27,7 +33,12 @@ class Teacher extends Component{
                 
         </div> 
            </div>
+<<<<<<< HEAD
            <br></br> 
+=======
+           <br></br>
+           <br></br>
+>>>>>>> 1cef8bed6f82f83b31d49c2f7463cc608e4d0d65
 
          
 
@@ -35,11 +46,16 @@ class Teacher extends Component{
                 <div className="row">
                     <div className=" col-sm-12 col-lg-6 col-md-3">
                         <img
+                        id="cap"
                         src={cap}
                         alt="capture"
                         className="responsive">
                         </img>
                     </div>
+                    <br></br>
+                     <br></br>
+                     <br></br>
+                     <br></br>
                     <div className="col-sm-12 col-lg-6 col-md-3" style={{backgroundColor:"#F4F3F3"}}> 
                         <h2 id="teach">Role of Teacher in Digital Age</h2>
                         <p id="teacher"> 
@@ -49,7 +65,12 @@ class Teacher extends Component{
                         </p>
 
                      </div> 
+                     <br></br>
+                     <br></br>
+                     <br></br>
+                     <br></br>
                 </div>
+               
             
             <div className="row">
                     
@@ -68,7 +89,8 @@ class Teacher extends Component{
                      </div> 
 
                      <div className=" col-sm-12 col-lg-6 col-md-6">
-                        <img
+                        <img 
+                        id="teach"
                         src={teach}
                         alt="capture"
                         className="responsive">
@@ -76,6 +98,8 @@ class Teacher extends Component{
                     </div>
                 </div>
             </div>
+            <br></br>
+            <br></br>
             <Mentors/>
             </div>
                 

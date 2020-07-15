@@ -3,8 +3,9 @@ import { Navbar, NavbarBrand, NavItem,Nav,NavbarToggler,Collapse} from 'reactstr
 import Carousel from './Carousel';
 import logo from '../Assets/logo-opencourse.png';
 import '../CSS/App.css';
+import { Link , NavLink} from 'react-router-dom';
 import Study from './Videos';
-import { Router, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Route , Switch} from 'react-router-dom';
 
 
 class Navb extends Component{
@@ -28,10 +29,12 @@ class Navb extends Component{
 
         
         return(
+           
+              
           
         <div>
             
-        <Navbar color="dark" light expand="md" fixed="top">
+            <Navbar color="dark" light expand="md" fixed="top">
                 {/* < div className="container" > */}
                 
                 
@@ -46,22 +49,16 @@ class Navb extends Component{
                     ></img>
                      <NavbarToggler onClick={this.toggle} />
                  <Collapse isOpen={this.state.isOpen} navbar>
-                
-                        {/* <NavbarBrand href="/">LIL</NavbarBrand> */}
-                            {/* <NavbarToggler onClick={() => context.toggleNavbar()} />
-                            <Collapse isOpen={context.navbarOpen} navbar> */}
-                            <div className="d-flex justify-content-end ml-auto">
-                            <Nav className="ml-auto " className="topnav" id="nav" navbar >
-                                <NavItem style={{margin:"15px", textDecoration:"none"}} id="a"><NavLink to='/HomePage'> Homepage</NavLink> </NavItem>
-                                <NavItem style={{margin:"15px"}} id="a"><NavLink to='/Study'> Our Services</NavLink> </NavItem>
-                                <NavItem style={{margin:"15px"}} id="a"> <NavLink to='/Bel'> Our Beliefs and Reviews</NavLink> </NavItem>
-                                <NavItem style={{margin:"15px"}} id="a"> <a href='#aboutdemo'> About Us</a> </NavItem> 
-                                <NavItem style={{margin:"15px"}} id="a"> <a href='#contact'> Contact Us</a></NavItem>
+                            <Nav className="ml-auto" id="nav" navbar >
+                                <NavItem style={{margin:"15px"}} ><NavLink to='/'> HomePage</NavLink></NavItem>
+                                <NavItem style={{margin:"15px"}}><NavLink to='/Study'> Our Services </NavLink></NavItem>
+                                <NavItem style={{margin:"15px"}}> Curators </NavItem>
+                                <NavItem style={{margin:"15px"}}><NavLink to='/About'> About Us </NavLink></NavItem> 
+                                <NavItem style={{margin:"15px"}} ><NavLink to='/Contact'>Contact Us</NavLink> </NavItem>
                             </Nav>
-                            </div>
                             
                             </Collapse>
-                    
+                            
         </Navbar>
         
         <br></br>
@@ -70,7 +67,9 @@ class Navb extends Component{
 
                             
                             </div>
+                        
            </div>
+          
       );
     }
   }
