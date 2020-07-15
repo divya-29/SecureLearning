@@ -88,7 +88,7 @@
   }
 
 .cont{
-    background-color:white !important;
+    /* background-color:white !important; */
 }
 #head{
     font-size: 3em !important;
@@ -98,7 +98,18 @@
 }
 .cardc{
     background-color: #F4F3F3 !important;
+    position: relative;
+    margin-bottom: 20px;
+    /* display: flex; */
     /* margin: 5px; */
     border-color:#F4F3F3 !important ;
     /* border-radius: 100px !important; */
+}
+.responsivec{
+    max-width: 100% !important;
+    /* height: auto !important; */
+    height:"400px" !important;
+    width: 400px !important;
+    /* position: fixed; */
+    
 }
