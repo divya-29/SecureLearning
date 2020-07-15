@@ -3,11 +3,76 @@ import parents from '../Assets/kid-1.jpg';
 import '../CSS/reviews.css';
 import Webfooter from './footer';
 class Reviews extends Component{
+    constructor(props) {
+        super(props);
+        this.state = {
+          error: null,
+          isLoaded: false,
+          items: []
+        };
+      }
+      componentDidMount() {
+        fetch("https://lil-project-1.herokuapp.com/api/testimonials")
+          .then(res => res.json())
+          .then(
+            (result) => {
+              this.setState({
+                // isLoaded: true,
+                items: result.data.testimonials
+              });
+            }
+           
+           
+          )
+      }    
     render(){
+        // const  items  = this.state.items.testimonials;
+    
+   
+        const item = this.state.items.map((i) => { 
         return(
 
-<div >
-    <br></br>
+            <div >
+
+       
+               <div className="col-9 card cardc  card.deck mx-auto ">
+                    <div className="hovereffect">
+                        <img className="responsivec rounded card-img-top" 
+                        src={i.imageUrl} 
+                        alt=""
+                       style={{height:"331px",
+                       width:"497px"}} 
+                       >
+                            </img>
+                             <div className="overlay">
+                                <h2>{i.name}</h2>
+				                {/* <p>
+					                <a href="#">LINK HERE</a>
+				                </p> */}
+                            </div>
+                     </div>
+                     <p className="card-text text-justify">
+                         <br></br>
+                     {i.comment}
+
+                     </p>
+                </div>
+                </div>
+                
+                
+
+               
+              
+               
+           
+
+
+           
+        );
+    })
+    return(
+        <div>
+            <br></br>
     <br></br>
             <div className="container-fluid">
            <div className="row">
@@ -20,111 +85,20 @@ class Reviews extends Component{
            </div>
            <br></br>
            <br></br>
-           
-        <div style={{backgroundColor:"#F4F3F3"}}>
+           <div style={{backgroundColor:"#F4F3F3"}}>
             <br></br>
-           <div className="container">
-               <div className="row cont card.deck">
-               <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12 card cardc ">
-                    <div className="hovereffect">
-                        <img className="img-responsive rounded card-img-top" 
-                        src={parents} 
-                        alt="">
-
-                        </img>
-                             <div className="overlay">
-                                <h2>Parent 1</h2>
-				                {/* <p>
-					                <a href="#">LINK HERE</a>
-				                </p> */}
-                            </div>
-                     </div>
-                     <p className="card-text text-justify">
-                         <br></br>
-                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
-                    tempor incididunt ut labore et dolore magna aliqua.
-                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-                     </p>
-                </div>
-
-                <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12 card cardc ">
-                    <div className="hovereffect">
-                        <img className="img-responsive rounded card-img-top" 
-                        src={parents} 
-                        alt="">
-
-                        </img>
-                             <div className="overlay">
-                                <h2>Parent 1</h2>
-				                {/* <p>
-					                <a href="#">LINK HERE</a>
-				                </p> */}
-                            </div>
-                     </div>
-                     <p className="card-text text-justify">
-                         <br></br>
-                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
-                    tempor incididunt ut labore et dolore magna aliqua.
-                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-                     </p>
-                </div>
-
-                <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12 card cardc ">
-                    <div className="hovereffect">
-                        <img className="img-responsive rounded card-img-top" 
-                        src={parents} 
-                        alt="">
-
-                        </img>
-                             <div className="overlay">
-                                <h2>Parent 1</h2>
-				                {/* <p>
-					                <a href="#">LINK HERE</a>
-				                </p> */}
-                            </div>
-                     </div>
-                     <p className="card-text text-justify">
-                         <br></br>
-                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
-                    tempor incididunt ut labore et dolore magna aliqua.
-                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-                     </p>
-                </div>
-
-                <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12 card cardc ">
-                    <div className="hovereffect">
-                        <img className="img-responsive rounded card-img-top" 
-                        src={parents} 
-                        alt="">
-
-                        </img>
-                             <div className="overlay">
-                                <h2>Parent 1</h2>
-				                {/* <p>
-					                <a href="#">LINK HERE</a>
-				                </p> */}
-                            </div>
-                     </div>
-                     <p className="card-text text-justify">
-                         <br></br>
-                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
-                    tempor incididunt ut labore et dolore magna aliqua.
-                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-                     </p>
-                     </div>
-                </div>
-               </div>
-               <br></br>
-               <br></br>
-           </div>
-                <Webfooter/>
-
-           </div>
-        );
+           <div className="container-fluid">
+               <div className="row justify-content-center">
+              
+                   
+                   
+                    {item}
+            
+            </div>
+            </div>
+        </div>
+        </div>
+    )
     }
 }
 
