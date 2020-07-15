@@ -62,4 +62,8 @@ GET https://lil-project-1.herokuapp.com/api/gallery?format=true
 GET https://lil-project-1.herokuapp.com/api/teammembers
 
 
+### Get all Curators
+GET https://lil-project-1.herokuapp.com/api/curators
+
+
 ###
