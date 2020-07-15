@@ -16,17 +16,21 @@
 }
 
 .second{
-    float:right;
+    float:right !important;
 }
 
 .mentor h2{
-    font-family: serif;
-    margin-top: 5px;
+    font-family: serif !important;
+    margin-top: 5px !important;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3em;
 }
 
 .mentor p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.3em;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 1.5em !important;
+    text-align: center;
 }
 /* .mentor{
     margin: 10px;
