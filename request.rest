@@ -54,6 +54,10 @@ GET https://lil-project-1.herokuapp.com/api/contactdetails
 GET https://lil-project-1.herokuapp.com/api/gallery
 
 
+### Get All Gallery Images Formatted for react image gallery library
+GET http://localhost:5000/api/gallery?format=true
+
+
 ### Get all Team Members
 GET https://lil-project-1.herokuapp.com/api/teammembers
 
