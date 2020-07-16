@@ -38,7 +38,7 @@ body, html {
 }
 
 /*---------------------------------------------*/
-a {
+/* a {
 	font-family: Montserrat-Regular;
 	font-size: 14px;
 	line-height: 1.7;
@@ -58,7 +58,7 @@ a:hover {
 	text-decoration: none;
 	color: #57b846;
 }
-
+ */
 /*---------------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
