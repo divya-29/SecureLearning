@@ -30,7 +30,7 @@ class Mentors extends Component{
     {
         const item = this.state.items.map((i) =>{
         return(
-            <div className="row" style={{backgroundColor:"#F4F3F3"}}>
+            <div className="row mx-auto" style={{backgroundColor:"#F4F3F3"}}>
             
            <br></br>
            <br></br>
@@ -38,7 +38,7 @@ class Mentors extends Component{
            {/* <div className="container-fluid">
                <div className="row " style={{backgroundColor:"#F4F3F3"}}> */}
                
-                   <div className="col-sm-3 col-lg-3 col-md-3 margins">
+                   <div className="col-sm-3 col-lg-3 col-md-3 margins mx-auto">
                        <img
                        src={i.imageUrl}
                        className="responsive-class rounded">
@@ -74,20 +74,22 @@ class Mentors extends Component{
 
     return(
         <div> 
-        <div className="container-fluid">
-           <div className="row">
+        <div className="container-fluid ">
+           <div className="row ">
             
             <div className=" example col-md-12 col-12">
             <h1 id="head" >Our Mentors Belief
             </h1>  
               </div>      
         </div> 
+        <br></br>
+        <br></br>
            </div>
-            <div className="container-fluid">
-//             <div className="row " style={{backgroundColor:"#F4F3F3"}}>
+            <div className="container-fluid " style={{backgroundColor:"#F4F3F3"}}>
+            {/* <div className="row " style={{backgroundColor:"#F4F3F3"}}> */}
 
                 {item}
-//                 </div>
+                {/* </div> */}
 
                 </div>
                 <Reviews />
@@ -96,6 +98,7 @@ class Mentors extends Component{
     )
 }
 }
+
 
 
 export default Mentors;
