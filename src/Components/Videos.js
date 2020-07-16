@@ -69,6 +69,8 @@ class Videos extends Component{
 								</div>
 								 </div>
 						</div>
+			<br></br>
+			<br></br>
 						<div class="container-fluid">
 							<div className="row sizing justify-content-center">
 								{videod}
