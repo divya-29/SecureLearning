@@ -35,8 +35,9 @@ class Videos extends Component{
 					<div>
 					<div className="col-md-12 col-sm-12 m-0">
 						<video controls>
-						<source url={i.videoUrl} type="video/mp4"></source>
+						<source src={i.videoUrl} type="video/mp4"></source>
 						<source src={i.videoUrl} type="video/webm"></source>
+						<source src={i.videoUrl} type="video/Ogg"></source>
 						<p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
 						</video>
 						<div>

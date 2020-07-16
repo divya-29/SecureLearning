@@ -1,14 +1,16 @@
+#root {
+	width: 100%;
+}
+
 .row-div {
 	display: flex;
 	flex-wrap: wrap;
 	padding-top: 0rem;
-	margin: auto;
-	padding: auto;
-	margin: 50px;
+/* 	margin-right: 91px;
+	margin-left: 0px; */
 }
 
 .main-div {
-	background: rgb(234, 236, 240);
 	padding-left: 0rem;
 	padding-right: 0rem;
 	padding-top: 0rem;

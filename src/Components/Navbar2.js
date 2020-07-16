@@ -43,6 +43,7 @@ class Navbar2 extends Component{
                                 <NavItem style={{margin:"15px", textDecoration:"none"}} id="a"><NavLink to='/HomePage'>  Homepage </NavLink></NavItem>
                                 <NavItem style={{margin:"15px"}} id="a"><NavLink to='/Study'> Our Services</NavLink> </NavItem>
                                 <NavItem style={{margin:"15px"}} id="a"><NavLink to='/Bel'>Our Beliefs and Reviews</NavLink> </NavItem>
+                                <NavItem style={{margin:"15px"}} id="a"><NavLink to='/Gallery'>Gallery</NavLink> </NavItem>
                                 <NavItem style={{margin:"15px"}} id="a"><NavLink to='/Contact'> Contact Us</NavLink> </NavItem>
 
                             </Nav>
