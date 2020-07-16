@@ -27,19 +27,37 @@ class Videos extends Component{
     });
 } 
        )
-     }
+	 }
+	 
 	
     render(){
+		const classes = {
+			playerWrapper: {
+				position: 'relative',
+				paddingTop: '56.25%'
+			},
+			reactPlayer: {
+				
+				top: 0,
+				left: 0,
+			}
+		}
 			const videod = this.state.videodata.map((i)=>{
 				return(
 					<div>
 					<div className="col-md-12 col-sm-12 m-0">
-						<video controls>
+						{/* <video controls>
 						<source src={i.videoUrl} type="video/mp4"></source>
 						<source src={i.videoUrl} type="video/webm"></source>
 						<source src={i.videoUrl} type="video/Ogg"></source>
 						<p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
-						</video>
+						</video> */}
+						<ReactPlayer
+							style={classes.reactPlayer}
+							url={i.videoUrl}
+							width='100%'
+							height='100%'
+						/>
 						<div>
 						<p className="textstyle">{i.title}</p>
 						</div>
@@ -69,8 +87,6 @@ class Videos extends Component{
 								</div>
 								 </div>
 						</div>
-			<br></br>
-			<br></br>
 						<div class="container-fluid">
 							<div className="row sizing justify-content-center">
 								{videod}
