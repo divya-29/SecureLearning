@@ -52,12 +52,12 @@ class Navb extends Component{
                             <Collapse isOpen={context.navbarOpen} navbar> */}
                             <div className="d-flex justify-content-end ml-auto">
                             <Nav className="ml-auto " className="topnav" id="nav" navbar >
-                                <NavItem style={{margin:"15px", textDecoration:"none"}} id="a"><NavLink to='/HomePage'> Homepage</NavLink> </NavItem>
-                                <NavItem style={{margin:"15px"}} id="a"><NavLink to='/Study'> Our Services</NavLink> </NavItem>
-                                <NavItem style={{margin:"15px"}} id="a"> <NavLink to='/Bel'> Our Beliefs and Reviews</NavLink> </NavItem>
-                                <NavItem style={{margin:"15px"}} id="a"><NavLink to='/Gallery'>Gallery</NavLink> </NavItem>
-                                <NavItem style={{margin:"15px"}} id="a"> <a href='#aboutdemo'> About Us</a> </NavItem> 
-                                <NavItem style={{margin:"15px"}} id="a"> <a href='/Contact'> Contact Us</a></NavItem>
+                                <NavItem style={{margin:"15px", textDecoration:"none", color:'white'}} id="a"><NavLink to='/HomePage'> Homepage</NavLink> </NavItem>
+                                <NavItem style={{margin:"15px", color:'white'}} id="a"><NavLink to='/Study'> Our Services</NavLink> </NavItem>
+                                <NavItem style={{margin:"15px", color:'white'}} id="a"> <NavLink to='/Bel'> Our Beliefs and Reviews</NavLink> </NavItem>
+                                <NavItem style={{margin:"15px", color:'white'}} id="a"><NavLink to='/Gallery'>Gallery</NavLink> </NavItem>
+                                <NavItem style={{margin:"15px", color:'white'}} id="a"> <a href='#aboutdemo'> About Us</a> </NavItem> 
+                                <NavItem style={{margin:"15px", color:'white'}} id="a"> <a href='/Contact'> Contact Us</a></NavItem>
                             </Nav>
                             </div>
                             
