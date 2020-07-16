@@ -14,10 +14,8 @@
 }
 .responsive-class{
     max-width: 100%;
-<<<<<<< HEAD
-=======
-    
->>>>>>> f8c92395f8bf144620c9561bbb598091e74271c8
+    width: 400px;
+    height: 400px !important;
     height: auto;
     background-color: #F4F3F3 !important;
     margin: 1em;
