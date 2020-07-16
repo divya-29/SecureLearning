@@ -40,11 +40,11 @@ class Navbar2 extends Component{
                  <Collapse isOpen={this.state.isOpen} navbar>
                             <div className="d-flex justify-content-end ml-auto">
                             <Nav className="ml-auto " className="topnav" id="nav" navbar >
-                                <NavItem style={{margin:"15px", textDecoration:"none"}} id="a"><NavLink to='/HomePage'>  Homepage </NavLink></NavItem>
-                                <NavItem style={{margin:"15px"}} id="a"><NavLink to='/Study'> Our Services</NavLink> </NavItem>
-                                <NavItem style={{margin:"15px"}} id="a"><NavLink to='/Bel'>Our Beliefs and Reviews</NavLink> </NavItem>
-                                <NavItem style={{margin:"15px"}} id="a"><NavLink to='/Gallery'>Gallery</NavLink> </NavItem>
-                                <NavItem style={{margin:"15px"}} id="a"><NavLink to='/Contact'> Contact Us</NavLink> </NavItem>
+                                <NavItem style={{margin:"15px", textDecoration:"none"}} id="ab"><NavLink to='/HomePage'>  Homepage </NavLink></NavItem>
+                                <NavItem style={{margin:"15px"}} id="ab"><NavLink to='/Study'> Our Services</NavLink> </NavItem>
+                                <NavItem style={{margin:"15px"}} id="ab"><NavLink to='/Bel'>Our Beliefs and Reviews</NavLink> </NavItem>
+                                <NavItem style={{margin:"15px"}} id="ab"><NavLink to='/Gallery'>Gallery</NavLink> </NavItem>
+                                <NavItem style={{margin:"15px"}} id="ab"><NavLink to='/Contact'> Contact Us</NavLink> </NavItem>
 
                             </Nav>
                             </div>
