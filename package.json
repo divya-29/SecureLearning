@@ -24,13 +24,15 @@
     "react-scripts": "^3.4.1",
     "reactstrap": "^8.5.1",
     "redux": "^4.0.5",
+    "serve": "^11.3.2",
     "video-react": "^0.14.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "react_scripts start"
   },
   "eslintConfig": {
     "extends": "react-app"
