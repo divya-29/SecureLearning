@@ -30,7 +30,7 @@ class Mentors extends Component{
     {
         const item = this.state.items.map((i) =>{
         return(
-            <div className="row">
+            <div className="row" style={{backgroundColor:"#F4F3F3"}}>
             
            <br></br>
            <br></br>
@@ -84,10 +84,10 @@ class Mentors extends Component{
         </div> 
            </div>
             <div className="container-fluid">
-            <div className="row " style={{backgroundColor:"#F4F3F3"}}>
+//             <div className="row " style={{backgroundColor:"#F4F3F3"}}>
 
                 {item}
-                </div>
+//                 </div>
 
                 </div>
                 <Reviews />
