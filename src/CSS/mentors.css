@@ -14,6 +14,7 @@
 }
 .responsive-class{
     max-width: 100%;
+    width:400px;
     height: auto;
     background-color: #F4F3F3 !important;
     margin: 1em;
