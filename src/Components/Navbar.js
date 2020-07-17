@@ -58,7 +58,7 @@ class Navb extends Component{
                                 <NavItem style={{margin:"15px", color:'white'}} id="ab"><NavLink to='/Gallery'>Gallery</NavLink> </NavItem>
                                 <NavItem style={{margin:"15px", color:'white'}} id="ab"> <a href='#about'> About Us</a> </NavItem> 
                                 <NavItem style={{margin:"15px", color:'white'}} id="ab"> <a href='/Contact'> Contact Us</a></NavItem>
-                                <NavItem style={{margin:"15px"}} id="a"> <a href='https://learn-india-learn.herokuapp.com/'> Admin
+                                <NavItem style={{margin:"15px", color:'white'}}} id="ab"> <a href='https://learn-india-learn.herokuapp.com/'> Admin
                                 </a></NavItem>
                             </Nav>
                             </div>
