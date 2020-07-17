@@ -45,7 +45,7 @@ class Navbar2 extends Component{
                                 <NavItem style={{margin:"15px"}} id="ab"><NavLink to='/Bel'>Our Beliefs and Reviews</NavLink> </NavItem>
                                 <NavItem style={{margin:"15px"}} id="ab"><NavLink to='/Gallery'>Gallery</NavLink> </NavItem>
                                 <NavItem style={{margin:"15px"}} id="ab"><NavLink to='/Contact'> Contact Us</NavLink> </NavItem>
-                                <NavItem style={{margin:"15px"}} id="a"> <a href='https://learn-india-learn.herokuapp.com/'> Admin
+                                <NavItem style={{margin:"15px"}} id="ab"> <a href='https://learn-india-learn.herokuapp.com/'> Admin
                                 </a></NavItem>
 
                             </Nav>
