@@ -56,7 +56,7 @@ class Navb extends Component{
                                 <NavItem style={{margin:"15px", color:'white'}} id="ab"><NavLink to='/Study'> Our Services</NavLink> </NavItem>
                                 <NavItem style={{margin:"15px", color:'white'}} id="ab"> <NavLink to='/Bel'> Our Beliefs and Reviews</NavLink> </NavItem>
                                 <NavItem style={{margin:"15px", color:'white'}} id="ab"><NavLink to='/Gallery'>Gallery</NavLink> </NavItem>
-                                <NavItem style={{margin:"15px", color:'white'}} id="ab"> <a href='#aboutdemo'> About Us</a> </NavItem> 
+                                <NavItem style={{margin:"15px", color:'white'}} id="ab"> <a href='#about'> About Us</a> </NavItem> 
                                 <NavItem style={{margin:"15px", color:'white'}} id="ab"> <a href='/Contact'> Contact Us</a></NavItem>
                             </Nav>
                             </div>
