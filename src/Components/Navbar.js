@@ -53,7 +53,7 @@ class Navb extends Component{
                             <div className="d-flex justify-content-end ml-auto">
                             <Nav className="ml-auto " className="topnav" id="nav" navbar >
                                 <NavItem style={{margin:"15px", textDecoration:"none", color:'white'}} id="ab"><NavLink to='/HomePage'> Homepage</NavLink> </NavItem>
-                                <NavItem style={{margin:"15px", color:'white'}} id="ab"><NavLink to='/Study'> Our Services</NavLink> </NavItem>
+                                <NavItem style={{margin:"15px", color:'white'}} id="ab"><NavLink to='/Study'> Content</NavLink> </NavItem>
                                 <NavItem style={{margin:"15px", color:'white'}} id="ab"> <NavLink to='/Bel'> Our Beliefs and Reviews</NavLink> </NavItem>
                                 <NavItem style={{margin:"15px", color:'white'}} id="ab"><NavLink to='/Gallery'>Gallery</NavLink> </NavItem>
                                 <NavItem style={{margin:"15px", color:'white'}} id="ab"> <a href='#about'> About Us</a> </NavItem> 
